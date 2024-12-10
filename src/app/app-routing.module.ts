@@ -11,7 +11,7 @@ const routes: Routes = [
  },
  {
     path:'anime',
-    loadChildren: () => import('./anime-hero/anime-hero.module').then(m => m.AnimeHeroModule)
+    loadChildren: () => import('./anime-hero/hero.module').then(m => m.AnimeHeroModule)
  },
  {
     path:'404',
