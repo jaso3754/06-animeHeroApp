@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
+import { HeroImagePipe } from './heroes/pipes/hero-image.pipe';
 
 
 
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
+    HeroImagePipe,
 
   ],
   imports: [
