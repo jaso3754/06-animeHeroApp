@@ -10,8 +10,8 @@ const routes: Routes = [
     loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)
  },
  {
-    path:'anime',
-    loadChildren: () => import('./anime-hero/hero.module').then(m => m.AnimeHeroModule)
+    path:'hero',
+    loadChildren: () => import('./anime-hero/hero.module').then(m => m.HeroModule)
  },
  {
     path:'404',
@@ -19,7 +19,7 @@ const routes: Routes = [
  },
  {
     path:'',
-    redirectTo: 'anime',
+    redirectTo: 'hero',
     pathMatch: 'full'
  },
  {

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-heroespage',
+  selector: 'app-heroes-page',
   templateUrl: './heroes-page.component.html',
   styles: ``
 })

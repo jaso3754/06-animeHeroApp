@@ -1,4 +1,4 @@
-# AnimeHeroApp
+# HeroApp
 
 ## Dev 
 1. clonar el proyecto 

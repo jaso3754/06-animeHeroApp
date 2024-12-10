@@ -14,10 +14,10 @@ export class ListPageComponent implements OnInit {
  public heroes: Hero[] = [];
 
 
- constructor (private heroService: HeroesService) {}
+ constructor (private heroesService: HeroesService) {}
 
   ngOnInit() {
-  this.heroService.getHeroes()
+  this.heroesService.getHeroes()
       .subscribe(  heroes => this.heroes = heroes );
 
   }

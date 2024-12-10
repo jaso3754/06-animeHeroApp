@@ -8,7 +8,7 @@ import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { HeroespageComponent } from './pages/heroes-page/heroes-page.component';
 
 
-//localhost:4200/anime-heroe/''
+//localhost:4200/heroe/''
 const routes: Routes = [
   {
     path: '',
