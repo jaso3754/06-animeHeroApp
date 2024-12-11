@@ -1,22 +1,20 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration} from '@angular/platform-browser';
+import { BrowserModule} from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
-import { HeroImagePipe } from './heroes/pipes/hero-image.pipe';
 
-
-
+import { provideHttpClient, withFetch } from '@angular/common/http';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroImagePipe,
+
 
   ],
   imports: [
@@ -24,13 +22,11 @@ import { HeroImagePipe } from './heroes/pipes/hero-image.pipe';
     BrowserAnimationsModule,
     HttpClientModule,
 
-
-
     AppRoutingModule,
     SharedModule
   ],
   providers: [
-    provideClientHydration(),
+    provideHttpClient(withFetch())
   ],
   bootstrap: [AppComponent]
 })
