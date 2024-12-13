@@ -23,7 +23,8 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
     HttpClientModule,
 
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+
   ],
   providers: [
     provideHttpClient(withFetch())
