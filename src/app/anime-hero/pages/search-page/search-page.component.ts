@@ -31,6 +31,8 @@ export class SearchPageComponent {
   }
 
   onSelectedOption ( event: MatAutocompleteSelectedEvent):void {
+    console.log(event);
+
     if ( !event.option.value) {
       this.selectedHero = undefined
     return;

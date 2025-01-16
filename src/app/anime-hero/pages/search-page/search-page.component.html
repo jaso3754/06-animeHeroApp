@@ -1,10 +1,10 @@
 <div class="flex flex-column p-2">
 
-<h3> Buscador </h3>
+<h3>Buscador</h3>
 
 <mat-form-field>
 
-  <mat-label>Buscador de heroes</mat-label>
+  <mat-label>Buscador de héroes</mat-label>
   <input
     type="text"
     matInput
@@ -24,7 +24,7 @@
 
     <mat-option
     *ngIf="heroes.length === 0 && searchInput.value && searchInput.value.length > 0"
-    value="">
+    value="" >
     No se encontro nada con el termino {{ searchInput.value }}
     </mat-option>
 

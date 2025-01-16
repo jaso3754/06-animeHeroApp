@@ -6,3 +6,4 @@
 3. levantar backend ``` npm run backend ``
 4. Ejecutar la app con el comando de ``` npm start```, o bien ``` ng serve -o``` 
 
+ // "serve:ssr:HeroApp": "node dist/hero-app/server/server.mjs"

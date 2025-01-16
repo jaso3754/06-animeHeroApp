@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { catchError, Observable, of } from 'rxjs';
-import {  Hero } from '../interfaces/hero.interface';
+import { catchError, map, Observable, of } from 'rxjs';
+import { Hero } from '../interfaces/hero.interface';
 import { environments } from '../../../environments/enviroments';
 import { error } from 'console';
 
@@ -33,8 +33,30 @@ export class HeroesService {
    }
 
    getSuggestions(query: string ): Observable<Hero[]> {
-    return this.http.get<Hero[]>(`${this.baseUrl}/heroes?q=${ query }&_limit=6`)
+    // let heroes = this.getHeroes().subscribe()
+    return this.http.get<Hero[]>(`${this.baseUrl}/heroes?q=${ query }&_limit=6`);
    }
 
+ addHero (hero: Hero ):Observable<Hero> {
+   return this.http.post<Hero>(`${this.baseUrl}/heroes`, hero);
+
+ }
+
+ updateHero (hero: Hero ):Observable<Hero> {
+  if ( !hero.id ) throw Error (' Hero Id is required')
+
+   return this.http.patch<Hero>(`${this.baseUrl}/heroes/${hero.id}`, hero);
+
+ }
+
+ deleteByIdHero (id: string ):Observable<boolean> {
+
+   return this.http.delete<Hero>(`${this.baseUrl}/heroes/${id}`)
+   .pipe (
+    catchError( err => of (false) ),
+    map( res => true)
+   );
+
+ }
 
 }

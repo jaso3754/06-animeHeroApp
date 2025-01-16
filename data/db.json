@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "usuario": "John Doe",
       "email": "john.due@gmail.com"
     }
@@ -21,7 +21,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
+      "characters": "Kal-El",
+      "alt_img": ""
     },
     {
       "id": "dc-flash",
@@ -166,6 +167,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "",
+      "superhero": "zaraki",
+      "publisher": "Marvel Comics",
+      "alter_ego": "kenpachi",
+      "first_appearance": "sereitei",
+      "characters": "jheisson ",
+      "alt_img": "https://i.pinimg.com/736x/01/4b/a9/014ba9293847acb766ec15d8e99df031.jpg"
     }
   ]
 }
