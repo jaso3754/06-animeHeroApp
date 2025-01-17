@@ -16,21 +16,13 @@
       "characters": "Bruce Wayne"
     },
     {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El",
-      "alt_img": ""
-    },
-    {
       "id": "dc-flash",
       "superhero": "Flash",
       "publisher": "DC Comics",
       "alter_ego": "Jay Garrick",
       "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
+      "alt_img": null
     },
     {
       "id": "dc-green",
@@ -47,14 +39,6 @@
       "alter_ego": "Oliver Queen",
       "first_appearance": "More Fun Comics #73",
       "characters": "Oliver Queen"
-    },
-    {
-      "id": "dc-wonder",
-      "superhero": "Wonder Woman",
-      "publisher": "DC Comics",
-      "alter_ego": "Princess Diana",
-      "first_appearance": "All Star Comics #8",
-      "characters": "Princess Diana"
     },
     {
       "id": "dc-martian",
@@ -137,14 +121,6 @@
       "characters": "James Howlett"
     },
     {
-      "id": "marvel-daredevil",
-      "superhero": "Daredevil",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Matthew Michael Murdock",
-      "first_appearance": "Daredevil #1",
-      "characters": "Matthew Michael Murdock"
-    },
-    {
       "id": "marvel-hawkeye",
       "superhero": "Hawkeye",
       "publisher": "Marvel Comics",
@@ -169,7 +145,7 @@
       "characters": "Norrin Radd"
     },
     {
-      "id": "",
+      "id": "anime-zaraki",
       "superhero": "zaraki",
       "publisher": "Marvel Comics",
       "alter_ego": "kenpachi",

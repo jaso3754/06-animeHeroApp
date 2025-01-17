@@ -53,8 +53,8 @@ export class HeroesService {
 
    return this.http.delete<Hero>(`${this.baseUrl}/heroes/${id}`)
    .pipe (
+    map( res => true),
     catchError( err => of (false) ),
-    map( res => true)
    );
 
  }
