@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "id": "1",
-      "usuario": "John Doe",
-      "email": "john.due@gmail.com"
+      "id": 1,
+      "user": "Jheisson Rojas",
+      "email": "jheifer27@gmail.com"
     }
   ],
   "heroes": [
@@ -16,13 +16,20 @@
       "characters": "Bruce Wayne"
     },
     {
+      "id": "dc-superman",
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1",
+      "characters": "Kal-El"
+    },
+    {
       "id": "dc-flash",
       "superhero": "Flash",
       "publisher": "DC Comics",
       "alter_ego": "Jay Garrick",
       "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
-      "alt_img": null
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
     },
     {
       "id": "dc-green",
@@ -39,6 +46,14 @@
       "alter_ego": "Oliver Queen",
       "first_appearance": "More Fun Comics #73",
       "characters": "Oliver Queen"
+    },
+    {
+      "id": "dc-wonder",
+      "superhero": "Wonder Woman",
+      "publisher": "DC Comics",
+      "alter_ego": "Princess Diana",
+      "first_appearance": "All Star Comics #8",
+      "characters": "Princess Diana"
     },
     {
       "id": "dc-martian",
@@ -121,6 +136,14 @@
       "characters": "James Howlett"
     },
     {
+      "id": "marvel-daredevil",
+      "superhero": "Daredevil",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Matthew Michael Murdock",
+      "first_appearance": "Daredevil #1",
+      "characters": "Matthew Michael Murdock"
+    },
+    {
       "id": "marvel-hawkeye",
       "superhero": "Hawkeye",
       "publisher": "Marvel Comics",
@@ -143,15 +166,6 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
-    },
-    {
-      "id": "anime-zaraki",
-      "superhero": "zaraki",
-      "publisher": "Marvel Comics",
-      "alter_ego": "kenpachi",
-      "first_appearance": "sereitei",
-      "characters": "jheisson ",
-      "alt_img": "https://i.pinimg.com/736x/01/4b/a9/014ba9293847acb766ec15d8e99df031.jpg"
     }
   ]
 }
